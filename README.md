@@ -17,7 +17,9 @@
 * Ve a Preferencias de Visual Code > Configuración y busca `formatOnSave` y habilítalo/actívalo.
 
 ### Configuración de Scripts 
-* Clona el repositorio en una carpeta. hhtp: `git clone https://github.com/MET-Testing/plawyright-javascript.git ` ssh:`git clone git@github.com:MET-Testing/plawyright-javascript.git`
+* Clona el repositorio en una carpeta.
+    http: `git clone https://github.com/MET-Testing/plawyright-javascript.git `
+    ssh:`git clone git@github.com:MET-Testing/plawyright-javascript.git`
 * Ve al directorio raíz del proyecto e instala las dependencias: `npm install`
 * Instala playwright: `npx playwright install`
 * Todas las dependencias del package.json se instalarán en la carpeta node_modules.
