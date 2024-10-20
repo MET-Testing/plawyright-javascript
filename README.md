@@ -1,37 +1,37 @@
 ---
-# Playwright and JavaScript Setup Guide
+# Guía de Configuración de Playwright y JavaScript
 ---
 
-## Features of this framework
-* [Design Pattern: Page Object Model](https://playwright.dev/docs/test-pom)
-* [Reporting: Allure](https://www.npmjs.com/package/allure-playwright)
+## Características de este framework
+* [Patrón de Diseño: Modelo de Objetos de Página](https://playwright.dev/docs/test-pom)
+* [Informes: Allure](https://www.npmjs.com/package/allure-playwright)
 
-## Getting started
+## Comenzando
 
-### Pre-requisites
-* Download and install Node.js
-* Download and install any Text Editor like Visual Code/Sublime/Brackets
+### Requisitos previos
+* Descarga e instala [Node.js](https://nodejs.org/en/download/package-manager) desde la versión 16.14.2 en adelante.
+* Descarga e instala cualquier editor de texto como Visual Code/Sublime/Brackets.
 
-### Setup Visual Code
-* Install GitLens Extension from the Marketplace: `GitLens — Git supercharged by GitKraken https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens`
-* Go to Visual Code Preference > Setting and search `formatOnSave` and enable/ON it.
+### Configuración de Visual Code
+* Instala la extensión GitLens desde el Marketplace: `GitLens — Git supercharged by GitKraken https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens`
+* Ve a Preferencias de Visual Code > Configuración y busca `formatOnSave` y habilítalo/actívalo.
 
-### Setup Scripts 
-* Clone the repository into a folder
-* Go to Project root directory and install Dependency: `npm install`
-* Install playwright: `npx playwright install`
-* All the dependencies from package.json would be installed in node_modules folder.
+### Configuración de Scripts 
+* Clona el repositorio en una carpeta.
+* Ve al directorio raíz del proyecto e instala las dependencias: `npm install`
+* Instala playwright: `npx playwright install`
+* Todas las dependencias del package.json se instalarán en la carpeta node_modules.
 
-### How to write Test
-* Add new spec under `e2e-tests` folder
-* Name the file as <testname>.spec.js (e.g. home.spec.js)
-* Create folder under page-objects/pages as <page-name> (e.g. homePage)
+### Cómo escribir una prueba
+* Agrega un nuevo spec en la carpeta `e2e-tests`.
+* Nombra el archivo como <nombre-de-la-prueba>.spec.js (por ejemplo, home.spec.js).
+* Crea una carpeta en page-objects/pages como <nombre-de-la-página> (por ejemplo, homePage).
 
-### How to Update local npm packages
-* Go to Project root directory and run command: `npm update`
+### Cómo actualizar paquetes npm locales
+* Ve al directorio raíz del proyecto y ejecuta el comando: `npm update`.
 
-### How to view failed test screenshot
-* Go to Project root directory: `./test-results/`
+### Cómo ver la captura de pantalla de una prueba fallida
+* Ve al directorio raíz del proyecto: `./test-results/`.
 
 ### Sample Allure Test Report
 ![Playwright and JavaScript Test Report](./assets/test-report.png?raw=true "Playwright and JavaScript Test Report")
