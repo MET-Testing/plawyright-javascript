@@ -14,11 +14,6 @@
 - Descarga e instala [Node.js](https://nodejs.org/en/download/package-manager) desde la versión 16.14.2 en adelante.
 - Descarga e instala cualquier editor de texto como Visual Code/Sublime/Brackets.
 
-### Configuración de Visual Code
-
-- Instala la extensión GitLens desde el Marketplace: `GitLens — Git supercharged by GitKraken https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens`
-- Ve a Preferencias de Visual Code > Configuración y busca `formatOnSave` y habilítalo/actívalo.
-
 ### Configuración de Scripts
 
 - Clona el repositorio en una carpeta.
@@ -41,10 +36,6 @@
 ## Cómo correr todos los test
 
 `npx playwright test`
-
-### Cómo actualizar paquetes npm locales
-
-- Ve al directorio raíz del proyecto y ejecuta el comando: `npm update`.
 
 ### Cómo ver la captura de pantalla de una prueba fallida
 
