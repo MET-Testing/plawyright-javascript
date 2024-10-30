@@ -6,5 +6,5 @@ test('Navigate to Home Page', async ({ page }) => {
 
 	// Verifica el título de la página
 	const title = await page.title()
-	expect(title).toBe('Swag Labsssssss')
+	expect(title).toBe('Swag Labs')
 })
