@@ -1,2 +1,43 @@
-<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="0.03136599999666214">
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="13.743484">
+<testsuite name="navigate.spec.js" timestamp="2024-10-30T23:19:43.115Z" hostname="Chrome" tests="1" failures="1" skipped="0" time="6.961" errors="0">
+<testcase name="Navigate to Home Page" classname="navigate.spec.js" time="6.961">
+<failure message="navigate.spec.js:3:1 Navigate to Home Page" type="FAILURE">
+<![CDATA[  [Chrome] › navigate.spec.js:3:1 › Navigate to Home Page ──────────────────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Swag Labsssssss"
+    Received: "Swag Labs"
+
+       7 | 	// Verifica el título de la página
+       8 | 	const title = await page.title()
+    >  9 | 	expect(title).toBe('Swag Labsssssss')
+         | 	              ^
+      10 | })
+      11 |
+
+        at /Users/valentinabianchik/Documents/proyectos-Testing/playwright-javascript/e2e/tests/navigate.spec.js:9:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/navigate-Navigate-to-Home-Page-Chrome/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigate-Navigate-to-Home-Page-Chrome/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigate-Navigate-to-Home-Page-Chrome/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/navigate-Navigate-to-Home-Page-Chrome/test-failed-1.png]]
+
+[[ATTACHMENT|test-results/navigate-Navigate-to-Home-Page-Chrome/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
 </testsuites>

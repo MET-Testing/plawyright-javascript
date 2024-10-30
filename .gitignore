@@ -3,4 +3,6 @@
 /test-results
 /allure-report
 /allure-results
-/results.xml
+/playwright-report
+results.xml
+playwright-report/index.html

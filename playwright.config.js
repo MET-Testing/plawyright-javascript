@@ -15,7 +15,6 @@ export const projects = [
 			headless: true,
 			viewport: { width: 1720, height: 850 },
 			screenshot: `only-on-failure`,
-			video: `retain-on-failure`,
 			trace: `retain-on-failure`,
 			baseURL: 'https://www.saucedemo.com/'
 		}

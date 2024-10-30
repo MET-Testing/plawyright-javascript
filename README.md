@@ -12,16 +12,17 @@
 
 - Descarga e instala [Node.js](https://nodejs.org/en/download/package-manager) desde la versión 16.14.2 en adelante.
 - Descarga e instala cualquier editor de código, te recomendamos Visual Studio Code
+(https://code.visualstudio.com/download)
 
 ### Configuración necesaria
 
 - Clona el repositorio en una carpeta
 - Abre la terminal de VSCode y navega a la carpeta donde quieras tener el proyecto,
- (por ejemplo, puedes crear una carpeta en mis documentos que se llame automationCamp), con el comando cd navega hasta esa raíz, por ejemplo `cd Documentos/automationCamp`: luego usa el comando a continuación: 
+ (por ejemplo, puedes crear una carpeta en mis documentos que se llame automationCamp), con el comando cd navega hasta esa raíz, por ejemplo `cd Documentos/automationCamp`: luego usa uno de los  comandos a continuación: 
   http: `git clone https://github.com/MET-Testing/plawyright-javascript.git `
   ssh:`git clone git@github.com:MET-Testing/plawyright-javascript.git`
 - Ubicadx con la terminal en el mismo directorio donde clonaste el proyecto, instala las dependencias: `npm install`
-- Instala playwright: `npm install @playwright/test --save-dev` `npx playwright install`
+- Instala playwright:`npx playwright install`
 - Todas las dependencias del package.json se instalarán en la carpeta node_modules.
 
 ### Cómo escribir una prueba
