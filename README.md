@@ -21,8 +21,7 @@
   http: `git clone https://github.com/MET-Testing/plawyright-javascript.git `
   ssh:`git clone git@github.com:MET-Testing/plawyright-javascript.git`
 - Ubicadx con la terminal en el mismo directorio donde clonaste el proyecto, instala las dependencias: `npm install`
-- Instala playwright: `npx playwright install`
-
+- Instala playwright: `npm install @playwright/test --save-dev` `npx playwright install`
 - Todas las dependencias del package.json se instalarán en la carpeta node_modules.
 
 ### Cómo escribir una prueba
